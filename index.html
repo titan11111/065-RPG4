@@ -34,6 +34,7 @@ html, body {
   padding: 0;
   background: var(--bg-dark);
   color: var(--text-white);
+  font-size: 200%;
   font-family: "Press Start 2P", monospace, system-ui, sans-serif;
   line-height: 1.4;
   overflow: hidden;
@@ -73,7 +74,7 @@ html, body {
   border: 3px solid var(--border-light);
   border-radius: 8px;
   padding: 8px;
-  font-size: 10px;
+  font-size: 20px;
   text-align: center;
   box-shadow: 2px 2px 0 var(--shadow);
 }
@@ -120,7 +121,7 @@ html, body {
   border: 2px solid var(--border-light);
   border-radius: 4px;
   color: var(--text-white);
-  font-size: 10px;
+  font-size: 20px;
   cursor: pointer;
   transition: all 0.1s;
   box-shadow: 1px 1px 0 var(--shadow);
@@ -144,7 +145,7 @@ html, body {
   border: 3px solid var(--border-light);
   border-radius: 8px;
   padding: 12px;
-  font-size: 10px;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -228,7 +229,7 @@ html, body {
 }
 
 #enemyStatus {
-  font-size: 10px;
+  font-size: 20px;
   color: var(--text-green);
   margin-top: 8px;
 }
@@ -236,7 +237,7 @@ html, body {
 /* ボス専用ステータス */
 .boss-battle #enemyStatus {
   color: var(--text-red);
-  font-size: 12px;
+  font-size: 24px;
   animation: bossStatusPulse 2s ease-in-out infinite;
 }
 
@@ -259,7 +260,7 @@ html, body {
   border: 2px solid var(--text-white);
   border-radius: 6px;
   color: var(--text-white);
-  font-size: 12px;
+  font-size: 24px;
   cursor: pointer;
   transition: all 0.1s;
   box-shadow: 2px 2px 0 var(--shadow);
@@ -293,7 +294,7 @@ html, body {
   border: 3px solid var(--border-light);
   border-radius: 8px;
   padding: 16px;
-  font-size: 12px;
+  font-size: 24px;
   min-height: 80px;
   display: flex;
   align-items: center;
@@ -337,7 +338,7 @@ html, body {
   border-radius: 8px;
   background: var(--window-bg);
   color: var(--text-white);
-  font-size: 16px;
+  font-size: 32px;
   cursor: pointer;
   transition: all 0.1s;
   box-shadow: 1px 1px 0 var(--shadow);
@@ -398,11 +399,11 @@ html, body {
   }
   
   #goldStatus, #menu, #playerStatus {
-    font-size: 8px;
+    font-size: 16px;
   }
   
   .cmd-btn {
-    font-size: 10px;
+    font-size: 20px;
     padding: 8px;
   }
 }
@@ -416,13 +417,13 @@ html, body {
   .dir-btn {
     width: 40px;
     height: 40px;
-    font-size: 14px;
+    font-size: 28px;
   }
   
   #messageWindow {
     min-height: 60px;
     padding: 8px;
-    font-size: 10px;
+    font-size: 20px;
   }
 }
 
